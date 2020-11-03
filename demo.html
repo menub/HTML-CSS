@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <title>login page</title>
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+    
+            }
+            body{
+                background-image: url("CSS files/sample6.jpg");
+                background-size: cover;
+            ;
+                
+            }
+            .login{
+                width: 320px;
+                height: 450px;
+                background-color: black;
+                position: absolute;
+               transform: translate(-50%,-50%);
+                left: 50%;
+                top: 50%;
+                
+            
+            }
+            .login img{
+                position: relative;
+                left: 130px;
+                transform: scale(1.5);
+                top: -20px;
+            }
+            h2{
+                color: red;
+                margin-top: 10px;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            p{
+                color: white;
+                margin-left:20px;
+                padding: 0px;
+                letter-spacing: 1px;
+            }
+            .login input{
+                margin-bottom: 20px;
+                padding: 0px;
+                font-weight: bold;
+                border: none;
+                border-bottom: 1px solid #fff;
+                background: transparent;
+                outline: none;
+                height: 40px;
+                width: 90%;
+                margin-left: 20px;
+                color: white;
+               
+            }
+            .login input:hover{
+                transform: scale(1.05);
+            }
+
+            #log{
+               color: black;
+               width: 90%;
+               height:30px;
+               margin-left: 20px;
+               background-color: white;
+               border-radius:10px;
+               font-size: 20px;
+               background-color: red;
+               border: none;
+            }
+            #log:hover{
+                background-color: cornflowerblue;
+                transform: scale(1.04);
+            }
+            .login a{
+                text-decoration: none;
+                color: white;
+                padding: 20px;
+                
+                line-height: 30px;
+            }
+            .login a:hover{
+               
+                color: turquoise;
+            }
+          
+
+        </style>
+    </head>
+    <body>
+   <div class="login">
+       <img src="CSS files/avtar2.png" width="60px" height="45px">
+      <h2>Login Here</h2>
+      <form>
+          <p>Username</p>
+          <input type="text" id="un" placeholder="Enter username">
+        <p>Password</p>
+        <input type="password" id="pswd" placeholder="Enter Password">
+     <br></br> <input type="submit" id="log" value="login">
+       <a href="#" id="id1">Forgot Password?</a><br>
+       <a href="form.html" id="id2">Don't have an account?</a>
+ 
+        </form>
+           
+      </body>
+</html>
